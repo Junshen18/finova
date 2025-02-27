@@ -10,7 +10,7 @@ export default function Home() {
         <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-[90px]">
             {/* Logo */}
-            <Image src="/finova-logo.svg" alt="Logo" width={185} height={42} />
+            <Image src="/finova-logo.svg" alt="Logo" width={185} height={42} className="object-contain cursor-pointer"/>
 
             {/* Desktop Navigation */}
             <div className="hidden sm:flex sm:items-center sm:space-x-8 font-[inter] font-medium text-base">
@@ -115,7 +115,7 @@ export default function Home() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-24 bg-white">
+        {/* <section className="py-24 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">
               <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">
@@ -131,13 +131,13 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Footer */}
         <footer className="bg-gray-50 py-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center text-gray-500">
-              <p>© 2024 Your Company. All rights reserved.</p>
+              <p>© 2025 Finova. All rights reserved.</p>
             </div>
           </div>
         </footer>
